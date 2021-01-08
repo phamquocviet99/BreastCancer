@@ -19,7 +19,7 @@ from tensorflow import Graph
 import  numpy as np
 img_size = 224
 model = None
-modelDensenet201 = tf.keras.models.load_model('./models/BreastCancer224.h5')
+modelDensenet201 = tf.keras.models.load_model('./models/BreastCancer224densenet201.h5')
 modelDensenet201.summary()
 modelXception = tf.keras.models.load_model('./models/BreastCancer224xception.h5')
 modelXception.summary()
